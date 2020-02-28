@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<project name="A106856" default="compila">
+
+
+   <target name="compila">
+      <javac includeantruntime= "false" srcdir="." destdir="../"/>
+   </target>
+
+</project>
