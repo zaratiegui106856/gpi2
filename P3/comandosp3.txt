@@ -1,0 +1,154 @@
+    1  29/01/20 11:47:40 exit
+    2  12/02/20 14:18:15 sudo apt install snapd
+    3  12/02/20 14:19:00 sudo snap install android-studio
+    4  12/02/20 14:19:12 sudo su
+    5  12/02/20 14:56:53 ls
+    6  12/02/20 14:57:09 cd AndroidStudioProjects/
+    7  12/02/20 14:57:12 ls
+    8  12/02/20 14:57:20 cd ActivityA106856/
+    9  12/02/20 14:57:22 ls
+   10  12/02/20 14:58:15 ./gradlew ActivityA106856.iml 
+   11  12/02/20 15:00:20 gradlew tasks
+   12  12/02/20 15:00:43 gradle tasks
+   13  12/02/20 15:01:24 sudo apt install gradle
+   14  12/02/20 15:02:28 gradle tasks
+   15  12/02/20 14:28:06 cd Descargas
+   16  12/02/20 14:28:07 ls
+   17  12/02/20 14:28:52 tar -xzvf android-studio-ide-191.6010548-linux.tar.gz android-studio/
+   18  12/02/20 14:30:51 ls
+   19  12/02/20 14:30:58 cd android-studio/bin
+   20  12/02/20 14:31:09 ls
+   21  12/02/20 14:31:26 ./studio.sh
+   22  12/02/20 14:42:25 cd ..
+   23  12/02/20 14:42:37 cd Documentos/
+   24  12/02/20 14:42:38 ls
+   25  12/02/20 14:43:54 tar -Jxvf arduino-1.8.10-linux64.tar.xz 
+   26  12/02/20 14:44:57 ls
+   27  12/02/20 14:45:01 cd arduino-1.8.10/
+   28  12/02/20 14:45:13 sudo chmod +x install.sh
+   29  12/02/20 14:45:35 ./install.sh
+   30  12/02/20 14:45:49 ls
+   31  12/02/20 14:46:24 ./install.sh
+   32  12/02/20 14:46:44 sudo su
+   33  12/02/20 15:29:18 ls
+   34  12/02/20 15:29:23 cd AndroidStudioProjects/
+   35  12/02/20 15:29:25 ls
+   36  12/02/20 15:29:28 cd ActivityA106856/
+   37  12/02/20 15:30:17 gradle assembleDebug
+   38  12/02/20 15:31:21 gradle assembleRealase
+   39  12/02/20 15:33:42 ls
+   40  12/02/20 15:34:04 chmod +x gradlew
+   41  12/02/20 15:34:30 ./gradlew assembleDebug
+   42  12/02/20 15:41:07 ls
+   43  12/02/20 15:41:10 cd app
+   44  12/02/20 15:41:11 ls
+   45  12/02/20 15:41:24 cd build
+   46  12/02/20 15:41:26 ls
+   47  12/02/20 15:41:34 cd outputs
+   48  12/02/20 15:41:36 ls
+   49  12/02/20 15:41:41 cd apk
+   50  12/02/20 15:41:42 ls
+   51  12/02/20 15:42:04 cd debug
+   52  12/02/20 15:42:06 ls
+   53  12/02/20 15:42:28 adb install app-debug.apk 
+   54  12/02/20 15:42:43 sudo apt install adb
+   55  12/02/20 15:43:09 adb install app-debug.apk 
+   56  12/02/20 15:49:36 cd ..
+   57  12/02/20 15:49:53 cd Descargas/
+   58  12/02/20 15:49:54 ls
+   59  12/02/20 15:50:04 unzip Bare-Arduino-Project-master.zip 
+   60  17/02/20 18:06:29 ls
+   61  17/02/20 18:06:35 cd Bare-Arduino-Project-master/
+   62  17/02/20 18:06:36 ls
+   63  17/02/20 18:06:43 cd src
+   64  17/02/20 18:06:45 ls
+   65  17/02/20 18:06:54 cd FooProject/
+   66  17/02/20 18:07:01 ls
+   67  17/02/20 18:07:53 cd ..
+   68  17/02/20 18:08:18 ls
+   69  17/02/20 18:08:37 cd Makefile-Linux.mk
+   70  17/02/20 18:09:11 cp Makefile-Linux.mk ./Makefile
+   71  17/02/20 18:09:29 make
+   72  17/02/20 18:09:36 nano Makefile
+   73  17/02/20 18:10:58 history > fich.txt
+   74  17/02/20 18:15:31 history > p2_comandos.txt
+   75  19/02/20 14:29:58 ant ?
+   76  19/02/20 14:20:47 cd Descargas/
+   77  19/02/20 14:20:48 ls
+   78  19/02/20 14:20:59 unzip apache-ant-1.10.7-bin.zip 
+   79  19/02/20 14:25:38 cd ..
+   80  19/02/20 14:25:39 ls
+   81  19/02/20 14:25:52 cd ..
+   82  19/02/20 14:25:53 ls
+   83  19/02/20 14:28:43 cd alumno/
+   84  19/02/20 14:28:44 ls
+   85  19/02/20 14:31:44 ant
+   86  19/02/20 14:31:50 ls
+   87  19/02/20 14:31:56 ant
+   88  19/02/20 14:32:29 maven
+   89  19/02/20 14:34:55 sudo apt install maven
+   90  19/02/20 14:35:42 git
+   91  19/02/20 14:35:58 git --version
+   92  19/02/20 14:43:47 ls
+   93  19/02/20 14:43:51 cd Escritorio/
+   94  19/02/20 14:44:32 mvn archetype:create -D artifactld = simple
+   95  19/02/20 14:45:27 sudo apt-intall maven
+   96  19/02/20 14:45:34 sudo apt-install maven
+   97  19/02/20 14:45:49 maven
+   98  19/02/20 14:45:59 sudo apt install maven
+   99  19/02/20 14:46:14 mvn archetype:create -D artifactld = simple
+  100  19/02/20 14:46:51 mvn archetype:create -D artifactld=simple
+  101  19/02/20 14:47:35 mvn archetype:generate -D artifactld=simple
+  102  19/02/20 14:59:43 mvn archetype:generate -D artifactld=simple-web
+  103  19/02/20 15:05:30 mvn archetype:create -DgroupId=106856 -DartifactId=simple -DpackageName=106856
+  104  19/02/20 15:05:46 mvn archetype:generate -DgroupId=106856 -DartifactId=simple -DpackageName=106856
+  105  19/02/20 15:06:22 mvn archetype:generate -DgroupId=106856 -DartifactId=simple-webapp -DpackageName=106856
+  106  19/02/20 15:11:34 mvn install
+  107  19/02/20 15:11:55 cd simple
+  108  19/02/20 15:11:58 mvn install
+  109  19/02/20 15:13:28 mvn compile
+  110  19/02/20 15:27:19 ant
+  111  19/02/20 15:27:27 cd simple
+  112  19/02/20 15:27:30 ls
+  113  19/02/20 15:27:35 cd src
+  114  19/02/20 15:27:37 ls
+  115  19/02/20 15:27:39 cd main
+  116  19/02/20 15:27:40 ls
+  117  19/02/20 15:27:42 cd java
+  118  19/02/20 15:27:44 ls
+  119  19/02/20 15:27:46 cd A106856/
+  120  19/02/20 15:27:48 ls
+  121  19/02/20 15:27:53 ant
+  122  26/02/20 16:41:18 exit
+  123  28/02/20 14:25:13 cd Escritorio/
+  124  28/02/20 14:25:14 ls
+  125  28/02/20 14:26:17 mkdir Repolocal
+  126  28/02/20 14:26:23 cd Repolocal/
+  127  28/02/20 14:28:01 git clone https://github.com/zaratiegui106856/gpi2.git
+  128  28/02/20 14:28:20 git init
+  129  28/02/20 14:28:27 git add *
+  130  28/02/20 14:28:48 mkdir p3
+  131  28/02/20 14:28:51 cd p3
+  132  28/02/20 14:30:26 ls
+  133  28/02/20 14:30:53 git add *
+  134  28/02/20 14:31:03 git commit -m practica3
+  135  28/02/20 14:31:39 git config --global user.email zaratiegui.106856@e.unavarra.es
+  136  28/02/20 14:32:21 git config --global user.name Andrea
+  137  28/02/20 14:32:26 git config --global user.email zaratiegui.106856@e.unavarra.es
+  138  28/02/20 14:32:38 git commit -m practica3
+  139  28/02/20 14:33:31 git push
+  140  28/02/20 14:35:46 touch index.html
+  141  28/02/20 14:36:40 git add *
+  142  28/02/20 14:36:45 git status
+  143  28/02/20 14:37:05 git commit -m "fichero index"
+  144  28/02/20 14:37:12 git push
+  145  28/02/20 14:38:43 git branch req001
+  146  28/02/20 14:38:53 nano index.html
+  147  28/02/20 14:39:47 git add*
+  148  28/02/20 14:39:54 git add *
+  149  28/02/20 14:40:11 git commit -m "fichero index modificado"
+  150  28/02/20 14:40:57 git push
+  151  28/02/20 14:41:39 git checkout master
+  152  28/02/20 14:42:39 git merge req001
+  153  28/02/20 14:42:52 git checkout req001
+  154  28/02/20 14:43:29 history > comandosp3.txt
